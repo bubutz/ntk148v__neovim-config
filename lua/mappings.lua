@@ -48,3 +48,6 @@ map("n", "<leader>ds", vim.diagnostic.setloclist, { desc = "LSP Diagnostic locli
 -- Comment
 map("n", "mm", "gcc", { desc = "Toggle comment", remap = true })
 map("v", "mm", "gc", { desc = "Toggle comment", remap = true })
+
+-- Terminal
+map("t", "<Esc>", "<C-\><C-n>")
